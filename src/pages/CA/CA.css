@@ -1,0 +1,42 @@
+.ca-container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ca-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ca-header h2 {
+  color: #199A8D;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.page-title {
+  color: #199A8D;
+  font-size: 22px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.ca-form {
+  max-width: 500px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .ca-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .ca-form {
+    max-width: 100%;
+  }
+}

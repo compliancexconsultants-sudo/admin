@@ -1,0 +1,33 @@
+.user-container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.page-title {
+  color: #199A8D;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.user-card {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.sub-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #199A8D;
+}
+
+.search-input {
+  max-width: 300px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .search-input {
+    max-width: 100%;
+  }
+}

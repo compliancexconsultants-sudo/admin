@@ -1,0 +1,27 @@
+.case-container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.page-title {
+  color: #199A8D;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.case-card {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.assign-form {
+  max-width: 400px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .assign-form {
+    max-width: 100%;
+  }
+}

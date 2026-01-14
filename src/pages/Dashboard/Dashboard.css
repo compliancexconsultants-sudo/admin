@@ -1,0 +1,73 @@
+.dash-container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.page-title {
+  color: #199A8D;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Stats Cards */
+.stat-card {
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px 0;
+  background: #E6F4F1;
+  border: 1px solid #d5ece8;
+}
+
+.stat-card h3 {
+  margin: 0;
+  color: #199A8D;
+  font-size: 16px;
+}
+
+.stat-value {
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #135f57;
+}
+
+/* New case alert section */
+.new-cases-card {
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 12px;
+  border-left: 6px solid #199A8D;
+}
+
+.alert-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.alert-row:last-child {
+  border-bottom: none;
+}
+
+.time-text {
+  font-size: 12px;
+  color: gray;
+  margin: 0;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .alert-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .stat-value {
+    font-size: 22px;
+  }
+}

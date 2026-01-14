@@ -1,0 +1,26 @@
+.admin-container {
+  display: flex;
+  height: auto;              /* allow natural height */
+  min-height: 100vh;         /* full screen but scrollable */
+  overflow: visible; 
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;          /* allow scroll */
+  min-height: 100vh;
+}
+
+.content-area {
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  .admin-container {
+    flex-direction: column;
+  }
+}
